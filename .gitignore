@@ -1,0 +1,42 @@
+# --- VS Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+.vscode/ipch/
+*.code-workspace
+.history/
+
+# --- Compiled objects & binaries ---
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.d
+
+# --- Build folders ---
+build/
+bin/
+obj/
+out/
+
+# --- CMake (if you use it) ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+cmake-build-*/
+compile_commands.json
+
+# --- Tooling caches ---
+.cache/
+*.browse.vc.db*
